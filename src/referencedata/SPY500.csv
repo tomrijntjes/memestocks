@@ -59,7 +59,7 @@ ATO,Atmos Energy,reports,Utilities,Gas Utilities,"Dallas, Texas",2019-02-15,0000
 ADSK,Autodesk Inc.,reports,Information Technology,Application Software,"San Rafael, California",1989-12-01,0000769397,
 ADP,Automatic Data Processing,reports,Information Technology,Internet Services & Infrastructure,"Roseland, New Jersey",1981-03-31,0000008670,
 AZO,AutoZone Inc,reports,Consumer Discretionary,Specialty Stores,"Memphis, Tennessee",1997-01-02,0000866787,
-AVB,"AvalonBay Communities, Inc.",reports,Real Estate,Residential REITs,"Arlington, Virginia[3]",2007-01-10,0000915912,
+AVB,AvalonBay Communities, Inc.,reports,Real Estate,Residential REITs,"Arlington, Virginia[3]",2007-01-10,0000915912,
 AVY,Avery Dennison Corp,reports,Materials,Paper Packaging,"Glendale, California",1987-12-31,0000008818,
 BKR,Baker Hughes Co,reports,Energy,Oil & Gas Equipment & Services,"Houston, Texas",2017-07-07,0001701605,2017
 BLL,Ball Corp,reports,Materials,Metal & Glass Containers,"Broomfield, Colorado",1984-10-31,0000009389,
@@ -131,7 +131,7 @@ CPRT,Copart Inc,reports,Industrials,Diversified Support Services,"Dallas, Texas"
 GLW,Corning Inc.,reports,Information Technology,Electronic Components,"Corning, New York",,0000024741,1851
 CTVA,Corteva,reports,Materials,Fertilizers & Agricultural Chemicals,"Wilmington, Delaware",2019-06-03,0001755672,2019
 COST,Costco Wholesale Corp.,reports,Consumer Staples,Hypermarkets & Super Centers,"Issaquah, Washington",1993-10-01,0000909832,
-COTY,"Coty, Inc",reports,Consumer Staples,Personal Products,"New York, New York",2016-10-03,0001024305,
+COTY,Coty, Inc,reports,Consumer Staples,Personal Products,"New York, New York",2016-10-03,0001024305,
 CCI,Crown Castle International Corp.,reports,Real Estate,Specialized REITs,"Houston, Texas",2012-03-14,0001051470,
 CSX,CSX Corp.,reports,Industrials,Railroads,"Jacksonville, Florida",1967-09-30,0000277948,1980
 CMI,Cummins Inc.,reports,Industrials,Industrial Machinery,"Columbus, Indiana",1965-03-31,0000026172,1919

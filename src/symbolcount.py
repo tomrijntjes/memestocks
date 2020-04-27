@@ -7,6 +7,10 @@ from datetime import datetime
 def nearest_hour(ts):
     return datetime.utcfromtimestamp(ts).strftime('%Y-%m-%d %H:00:00Z')
 
+def reduce(posts_mentioning_companies):
+    for p in posts_mentioning_companies:
+
+
 def parse(posts):
     # how am I going to look for 500 ticker symbols efficiently?
     for post in posts:
