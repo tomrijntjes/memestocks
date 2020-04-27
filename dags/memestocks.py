@@ -39,3 +39,5 @@ def scrape_subreddit(**kwargs):
 with DAG('python_dag', description='Python DAG', schedule_interval='0 * * * *', start_date=datetime(2020, 1, 1), catchup=False) as dag:
         hot_investing_posts     = PythonOperator(task_id='hot_investing_posts', python_callable=scrape_subreddit, op_kwargs={"subreddit":"investing"})
         hot_stocks_posts        = PythonOperator(task_id='hot_stocks_posts', python_callable=scrape_subreddit, op_kwargs={"subreddit":"investing"})
+        hot_sa_posts            = PythonOperator(task_id='hot_sa_posts', python_callable=scrape_subreddit, op_kwargs={"subreddit":"securityanalysis"})
+        hot_wsb_posts           = PythonOperator(task_id='hot_wsb_posts', python_callable=scrape_subreddit, op_kwargs={"subreddit":"wallstreetbets"})
