@@ -6,9 +6,9 @@ import praw
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
-
-
 from datetime import datetime
+
+from src.symbolcount import count_company_mentions,parse
 
 reddit = praw.Reddit(client_id=os.environ["CLIENT_ID"], client_secret=os.environ["CLIENT_SECRET"], user_agent=os.environ["USER_AGENT"])
 
@@ -34,6 +34,11 @@ def scrape_subreddit(**kwargs):
         for comment in submission.comments.list():
             with open("{0}/parentid_{1}_id_{2}_score_{3}.txt".format(basepath,post.id,comment.id,comment.score),"w+") as f:
                 f.write(comment.body)
+
+def count_companies(**kwargs):
+    subreddit = kwargs["subreddit"]
+    posts_mentioning_companies = parse(count_company_mentions(subreddit))
+
 
 
 with DAG('python_dag', description='Python DAG', schedule_interval='0 * * * *', start_date=datetime(2020, 1, 1), catchup=False) as dag:
