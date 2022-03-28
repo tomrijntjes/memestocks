@@ -1,0 +1,3 @@
+Would be great if we could also add two more columns in the main summary list 
+A) qtd and ytd performance number
+B) investing style of the fund
